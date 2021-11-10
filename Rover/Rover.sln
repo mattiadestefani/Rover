@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31702.278
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Rover.Service", "Rover.Service\Rover.Service.csproj", "{19BB8DD0-9E3B-4D10-99DD-4B771CB9079E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Rover.Model", "Rover.Model\Rover.Model.csproj", "{554DE6F9-922D-459A-80B9-4B4AE4E99AC4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Rover.Engine", "Rover.Engine\Rover.Engine.csproj", "{C4A5E8C5-4F6A-41C4-997E-0851CBAD6183}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Rover.Reader", "Rover.Reader\Rover.Reader.csproj", "{126D4F09-ABDF-4FA4-959A-8F12FD618D4E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Rover.Writer", "Rover.Writer\Rover.Writer.csproj", "{10FB81AF-2208-4600-B991-FE5E3672B22A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Library", "Library", "{791ABC0F-460C-46AA-BBA7-314317B81758}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FileManager", "FileManager", "{DF3739E3-30A7-433A-9A4B-0AA6A2DF6CED}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{19BB8DD0-9E3B-4D10-99DD-4B771CB9079E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19BB8DD0-9E3B-4D10-99DD-4B771CB9079E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19BB8DD0-9E3B-4D10-99DD-4B771CB9079E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19BB8DD0-9E3B-4D10-99DD-4B771CB9079E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{554DE6F9-922D-459A-80B9-4B4AE4E99AC4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{554DE6F9-922D-459A-80B9-4B4AE4E99AC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{554DE6F9-922D-459A-80B9-4B4AE4E99AC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{554DE6F9-922D-459A-80B9-4B4AE4E99AC4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C4A5E8C5-4F6A-41C4-997E-0851CBAD6183}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4A5E8C5-4F6A-41C4-997E-0851CBAD6183}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4A5E8C5-4F6A-41C4-997E-0851CBAD6183}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4A5E8C5-4F6A-41C4-997E-0851CBAD6183}.Release|Any CPU.Build.0 = Release|Any CPU
+		{126D4F09-ABDF-4FA4-959A-8F12FD618D4E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{126D4F09-ABDF-4FA4-959A-8F12FD618D4E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{126D4F09-ABDF-4FA4-959A-8F12FD618D4E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{126D4F09-ABDF-4FA4-959A-8F12FD618D4E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{10FB81AF-2208-4600-B991-FE5E3672B22A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{10FB81AF-2208-4600-B991-FE5E3672B22A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{10FB81AF-2208-4600-B991-FE5E3672B22A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{10FB81AF-2208-4600-B991-FE5E3672B22A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{554DE6F9-922D-459A-80B9-4B4AE4E99AC4} = {791ABC0F-460C-46AA-BBA7-314317B81758}
+		{C4A5E8C5-4F6A-41C4-997E-0851CBAD6183} = {791ABC0F-460C-46AA-BBA7-314317B81758}
+		{126D4F09-ABDF-4FA4-959A-8F12FD618D4E} = {DF3739E3-30A7-433A-9A4B-0AA6A2DF6CED}
+		{10FB81AF-2208-4600-B991-FE5E3672B22A} = {DF3739E3-30A7-433A-9A4B-0AA6A2DF6CED}
+		{DF3739E3-30A7-433A-9A4B-0AA6A2DF6CED} = {791ABC0F-460C-46AA-BBA7-314317B81758}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8D815F42-4E55-4996-A4C8-F70B96C6F8A6}
+	EndGlobalSection
+EndGlobal
